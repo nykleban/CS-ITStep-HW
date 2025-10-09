@@ -1,0 +1,14 @@
+D:\Repos\C#-ITStep-HW\firstTask(text in console)\Console Text\bin\Debug\net9.0\Console Text.exe
+D:\Repos\C#-ITStep-HW\firstTask(text in console)\Console Text\bin\Debug\net9.0\Console Text.deps.json
+D:\Repos\C#-ITStep-HW\firstTask(text in console)\Console Text\bin\Debug\net9.0\Console Text.runtimeconfig.json
+D:\Repos\C#-ITStep-HW\firstTask(text in console)\Console Text\bin\Debug\net9.0\Console Text.dll
+D:\Repos\C#-ITStep-HW\firstTask(text in console)\Console Text\bin\Debug\net9.0\Console Text.pdb
+D:\Repos\C#-ITStep-HW\firstTask(text in console)\Console Text\obj\Debug\net9.0\Console Text.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\C#-ITStep-HW\firstTask(text in console)\Console Text\obj\Debug\net9.0\Console Text.AssemblyInfoInputs.cache
+D:\Repos\C#-ITStep-HW\firstTask(text in console)\Console Text\obj\Debug\net9.0\Console Text.AssemblyInfo.cs
+D:\Repos\C#-ITStep-HW\firstTask(text in console)\Console Text\obj\Debug\net9.0\Console Text.csproj.CoreCompileInputs.cache
+D:\Repos\C#-ITStep-HW\firstTask(text in console)\Console Text\obj\Debug\net9.0\Console Text.dll
+D:\Repos\C#-ITStep-HW\firstTask(text in console)\Console Text\obj\Debug\net9.0\refint\Console Text.dll
+D:\Repos\C#-ITStep-HW\firstTask(text in console)\Console Text\obj\Debug\net9.0\Console Text.pdb
+D:\Repos\C#-ITStep-HW\firstTask(text in console)\Console Text\obj\Debug\net9.0\Console Text.genruntimeconfig.cache
+D:\Repos\C#-ITStep-HW\firstTask(text in console)\Console Text\obj\Debug\net9.0\ref\Console Text.dll
