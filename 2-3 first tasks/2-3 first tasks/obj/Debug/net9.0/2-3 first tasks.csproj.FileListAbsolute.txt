@@ -1,0 +1,15 @@
+D:\Repos\CS-ITStep-HW\2-3 first tasks\2-3 first tasks\bin\Debug\net9.0\2-3 first tasks.exe
+D:\Repos\CS-ITStep-HW\2-3 first tasks\2-3 first tasks\bin\Debug\net9.0\2-3 first tasks.deps.json
+D:\Repos\CS-ITStep-HW\2-3 first tasks\2-3 first tasks\bin\Debug\net9.0\2-3 first tasks.runtimeconfig.json
+D:\Repos\CS-ITStep-HW\2-3 first tasks\2-3 first tasks\bin\Debug\net9.0\2-3 first tasks.dll
+D:\Repos\CS-ITStep-HW\2-3 first tasks\2-3 first tasks\bin\Debug\net9.0\2-3 first tasks.pdb
+D:\Repos\CS-ITStep-HW\2-3 first tasks\2-3 first tasks\obj\Debug\net9.0\2-3 first tasks.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\CS-ITStep-HW\2-3 first tasks\2-3 first tasks\obj\Debug\net9.0\2-3 first tasks.AssemblyInfoInputs.cache
+D:\Repos\CS-ITStep-HW\2-3 first tasks\2-3 first tasks\obj\Debug\net9.0\2-3 first tasks.AssemblyInfo.cs
+D:\Repos\CS-ITStep-HW\2-3 first tasks\2-3 first tasks\obj\Debug\net9.0\2-3 first tasks.csproj.CoreCompileInputs.cache
+D:\Repos\CS-ITStep-HW\2-3 first tasks\2-3 first tasks\obj\Debug\net9.0\2-3 first tasks.sourcelink.json
+D:\Repos\CS-ITStep-HW\2-3 first tasks\2-3 first tasks\obj\Debug\net9.0\2-3 first tasks.dll
+D:\Repos\CS-ITStep-HW\2-3 first tasks\2-3 first tasks\obj\Debug\net9.0\refint\2-3 first tasks.dll
+D:\Repos\CS-ITStep-HW\2-3 first tasks\2-3 first tasks\obj\Debug\net9.0\2-3 first tasks.pdb
+D:\Repos\CS-ITStep-HW\2-3 first tasks\2-3 first tasks\obj\Debug\net9.0\2-3 first tasks.genruntimeconfig.cache
+D:\Repos\CS-ITStep-HW\2-3 first tasks\2-3 first tasks\obj\Debug\net9.0\ref\2-3 first tasks.dll
