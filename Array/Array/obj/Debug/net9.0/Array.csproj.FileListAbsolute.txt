@@ -1,0 +1,15 @@
+D:\Repos\CS-ITStep-HW\Array\Array\obj\Debug\net9.0\Array.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\CS-ITStep-HW\Array\Array\obj\Debug\net9.0\Array.AssemblyInfoInputs.cache
+D:\Repos\CS-ITStep-HW\Array\Array\obj\Debug\net9.0\Array.AssemblyInfo.cs
+D:\Repos\CS-ITStep-HW\Array\Array\obj\Debug\net9.0\Array.csproj.CoreCompileInputs.cache
+D:\Repos\CS-ITStep-HW\Array\Array\obj\Debug\net9.0\Array.sourcelink.json
+D:\Repos\CS-ITStep-HW\Array\Array\bin\Debug\net9.0\Array.exe
+D:\Repos\CS-ITStep-HW\Array\Array\bin\Debug\net9.0\Array.deps.json
+D:\Repos\CS-ITStep-HW\Array\Array\bin\Debug\net9.0\Array.runtimeconfig.json
+D:\Repos\CS-ITStep-HW\Array\Array\bin\Debug\net9.0\Array.dll
+D:\Repos\CS-ITStep-HW\Array\Array\bin\Debug\net9.0\Array.pdb
+D:\Repos\CS-ITStep-HW\Array\Array\obj\Debug\net9.0\Array.dll
+D:\Repos\CS-ITStep-HW\Array\Array\obj\Debug\net9.0\refint\Array.dll
+D:\Repos\CS-ITStep-HW\Array\Array\obj\Debug\net9.0\Array.pdb
+D:\Repos\CS-ITStep-HW\Array\Array\obj\Debug\net9.0\Array.genruntimeconfig.cache
+D:\Repos\CS-ITStep-HW\Array\Array\obj\Debug\net9.0\ref\Array.dll
