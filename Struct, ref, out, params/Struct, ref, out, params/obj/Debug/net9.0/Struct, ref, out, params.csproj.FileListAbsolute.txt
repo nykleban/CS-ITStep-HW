@@ -1,0 +1,15 @@
+D:\Repos\CS-ITStep-HW\Struct, ref, out, params\Struct, ref, out, params\bin\Debug\net9.0\Struct, ref, out, params.exe
+D:\Repos\CS-ITStep-HW\Struct, ref, out, params\Struct, ref, out, params\bin\Debug\net9.0\Struct, ref, out, params.deps.json
+D:\Repos\CS-ITStep-HW\Struct, ref, out, params\Struct, ref, out, params\bin\Debug\net9.0\Struct, ref, out, params.runtimeconfig.json
+D:\Repos\CS-ITStep-HW\Struct, ref, out, params\Struct, ref, out, params\bin\Debug\net9.0\Struct, ref, out, params.dll
+D:\Repos\CS-ITStep-HW\Struct, ref, out, params\Struct, ref, out, params\bin\Debug\net9.0\Struct, ref, out, params.pdb
+D:\Repos\CS-ITStep-HW\Struct, ref, out, params\Struct, ref, out, params\obj\Debug\net9.0\Struct, ref, out, params.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\CS-ITStep-HW\Struct, ref, out, params\Struct, ref, out, params\obj\Debug\net9.0\Struct, ref, out, params.AssemblyInfoInputs.cache
+D:\Repos\CS-ITStep-HW\Struct, ref, out, params\Struct, ref, out, params\obj\Debug\net9.0\Struct, ref, out, params.AssemblyInfo.cs
+D:\Repos\CS-ITStep-HW\Struct, ref, out, params\Struct, ref, out, params\obj\Debug\net9.0\Struct, ref, out, params.csproj.CoreCompileInputs.cache
+D:\Repos\CS-ITStep-HW\Struct, ref, out, params\Struct, ref, out, params\obj\Debug\net9.0\Struct, ref, out, params.sourcelink.json
+D:\Repos\CS-ITStep-HW\Struct, ref, out, params\Struct, ref, out, params\obj\Debug\net9.0\Struct, ref, out, params.dll
+D:\Repos\CS-ITStep-HW\Struct, ref, out, params\Struct, ref, out, params\obj\Debug\net9.0\refint\Struct, ref, out, params.dll
+D:\Repos\CS-ITStep-HW\Struct, ref, out, params\Struct, ref, out, params\obj\Debug\net9.0\Struct, ref, out, params.pdb
+D:\Repos\CS-ITStep-HW\Struct, ref, out, params\Struct, ref, out, params\obj\Debug\net9.0\Struct, ref, out, params.genruntimeconfig.cache
+D:\Repos\CS-ITStep-HW\Struct, ref, out, params\Struct, ref, out, params\obj\Debug\net9.0\ref\Struct, ref, out, params.dll
