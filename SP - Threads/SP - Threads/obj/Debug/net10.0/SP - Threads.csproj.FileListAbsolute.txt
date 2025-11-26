@@ -1,0 +1,15 @@
+D:\Repos\CS-ITStep-HW\SP - Threads\SP - Threads\bin\Debug\net10.0\SP - Threads.exe
+D:\Repos\CS-ITStep-HW\SP - Threads\SP - Threads\bin\Debug\net10.0\SP - Threads.deps.json
+D:\Repos\CS-ITStep-HW\SP - Threads\SP - Threads\bin\Debug\net10.0\SP - Threads.runtimeconfig.json
+D:\Repos\CS-ITStep-HW\SP - Threads\SP - Threads\bin\Debug\net10.0\SP - Threads.dll
+D:\Repos\CS-ITStep-HW\SP - Threads\SP - Threads\bin\Debug\net10.0\SP - Threads.pdb
+D:\Repos\CS-ITStep-HW\SP - Threads\SP - Threads\obj\Debug\net10.0\SP - Threads.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\CS-ITStep-HW\SP - Threads\SP - Threads\obj\Debug\net10.0\SP - Threads.AssemblyInfoInputs.cache
+D:\Repos\CS-ITStep-HW\SP - Threads\SP - Threads\obj\Debug\net10.0\SP - Threads.AssemblyInfo.cs
+D:\Repos\CS-ITStep-HW\SP - Threads\SP - Threads\obj\Debug\net10.0\SP - Threads.csproj.CoreCompileInputs.cache
+D:\Repos\CS-ITStep-HW\SP - Threads\SP - Threads\obj\Debug\net10.0\SP - Threads.sourcelink.json
+D:\Repos\CS-ITStep-HW\SP - Threads\SP - Threads\obj\Debug\net10.0\SP - Threads.dll
+D:\Repos\CS-ITStep-HW\SP - Threads\SP - Threads\obj\Debug\net10.0\refint\SP - Threads.dll
+D:\Repos\CS-ITStep-HW\SP - Threads\SP - Threads\obj\Debug\net10.0\SP - Threads.pdb
+D:\Repos\CS-ITStep-HW\SP - Threads\SP - Threads\obj\Debug\net10.0\SP - Threads.genruntimeconfig.cache
+D:\Repos\CS-ITStep-HW\SP - Threads\SP - Threads\obj\Debug\net10.0\ref\SP - Threads.dll
