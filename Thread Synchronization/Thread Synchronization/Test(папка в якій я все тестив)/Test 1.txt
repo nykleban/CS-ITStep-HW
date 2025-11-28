@@ -1,0 +1,3 @@
+Hello world! This is the first test file.
+We are testing: words, lines, and simple punctuation.
+Good luck with your C# code.

@@ -1,0 +1,5 @@
+Warning! System error: [404].
+File not found; please try again later.
+'Single quotes' and "Double quotes" are here.
+123 456 789 - numbers count as words too?
+The end.

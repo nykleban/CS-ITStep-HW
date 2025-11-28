@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Repos\\CS-ITStep-HW\\Thread Synchronization\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8FFCA92-6E82-4941-93A6-C353731DC5BE}|Thread Synchronization\\Thread Synchronization.csproj|d:\\repos\\cs-itstep-hw\\thread synchronization\\thread synchronization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8FFCA92-6E82-4941-93A6-C353731DC5BE}|Thread Synchronization\\Thread Synchronization.csproj|solutionrelative:thread synchronization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8FFCA92-6E82-4941-93A6-C353731DC5BE}|Thread Synchronization\\Thread Synchronization.csproj|d:\\repos\\cs-itstep-hw\\thread synchronization\\thread synchronization\\globalstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8FFCA92-6E82-4941-93A6-C353731DC5BE}|Thread Synchronization\\Thread Synchronization.csproj|solutionrelative:thread synchronization\\globalstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8FFCA92-6E82-4941-93A6-C353731DC5BE}|Thread Synchronization\\Thread Synchronization.csproj|d:\\repos\\cs-itstep-hw\\thread synchronization\\thread synchronization\\stat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8FFCA92-6E82-4941-93A6-C353731DC5BE}|Thread Synchronization\\Thread Synchronization.csproj|solutionrelative:thread synchronization\\stat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 310,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Stat.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\Thread Synchronization\\Thread Synchronization\\Stat.cs",
+              "RelativeDocumentMoniker": "Thread Synchronization\\Stat.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\Thread Synchronization\\Thread Synchronization\\Stat.cs",
+              "RelativeToolTip": "Thread Synchronization\\Stat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T11:23:45.694Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GlobalStat.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\Thread Synchronization\\Thread Synchronization\\GlobalStat.cs",
+              "RelativeDocumentMoniker": "Thread Synchronization\\GlobalStat.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\Thread Synchronization\\Thread Synchronization\\GlobalStat.cs",
+              "RelativeToolTip": "Thread Synchronization\\GlobalStat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T12:15:54.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\Thread Synchronization\\Thread Synchronization\\Program.cs",
+              "RelativeDocumentMoniker": "Thread Synchronization\\Program.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\Thread Synchronization\\Thread Synchronization\\Program.cs",
+              "RelativeToolTip": "Thread Synchronization\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T11:18:47.481Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
