@@ -1,0 +1,15 @@
+D:\Repos\CS-ITStep-HW\Indexers\Indexers\bin\Debug\net10.0\Indexers.exe
+D:\Repos\CS-ITStep-HW\Indexers\Indexers\bin\Debug\net10.0\Indexers.deps.json
+D:\Repos\CS-ITStep-HW\Indexers\Indexers\bin\Debug\net10.0\Indexers.runtimeconfig.json
+D:\Repos\CS-ITStep-HW\Indexers\Indexers\bin\Debug\net10.0\Indexers.dll
+D:\Repos\CS-ITStep-HW\Indexers\Indexers\bin\Debug\net10.0\Indexers.pdb
+D:\Repos\CS-ITStep-HW\Indexers\Indexers\obj\Debug\net10.0\Indexers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\CS-ITStep-HW\Indexers\Indexers\obj\Debug\net10.0\Indexers.AssemblyInfoInputs.cache
+D:\Repos\CS-ITStep-HW\Indexers\Indexers\obj\Debug\net10.0\Indexers.AssemblyInfo.cs
+D:\Repos\CS-ITStep-HW\Indexers\Indexers\obj\Debug\net10.0\Indexers.csproj.CoreCompileInputs.cache
+D:\Repos\CS-ITStep-HW\Indexers\Indexers\obj\Debug\net10.0\Indexers.sourcelink.json
+D:\Repos\CS-ITStep-HW\Indexers\Indexers\obj\Debug\net10.0\Indexers.dll
+D:\Repos\CS-ITStep-HW\Indexers\Indexers\obj\Debug\net10.0\refint\Indexers.dll
+D:\Repos\CS-ITStep-HW\Indexers\Indexers\obj\Debug\net10.0\Indexers.pdb
+D:\Repos\CS-ITStep-HW\Indexers\Indexers\obj\Debug\net10.0\Indexers.genruntimeconfig.cache
+D:\Repos\CS-ITStep-HW\Indexers\Indexers\obj\Debug\net10.0\ref\Indexers.dll
