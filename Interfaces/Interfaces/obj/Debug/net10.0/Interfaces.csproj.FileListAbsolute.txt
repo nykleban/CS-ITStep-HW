@@ -1,0 +1,15 @@
+D:\Repos\CS-ITStep-HW\Interfaces\Interfaces\bin\Debug\net10.0\Interfaces.exe
+D:\Repos\CS-ITStep-HW\Interfaces\Interfaces\bin\Debug\net10.0\Interfaces.deps.json
+D:\Repos\CS-ITStep-HW\Interfaces\Interfaces\bin\Debug\net10.0\Interfaces.runtimeconfig.json
+D:\Repos\CS-ITStep-HW\Interfaces\Interfaces\bin\Debug\net10.0\Interfaces.dll
+D:\Repos\CS-ITStep-HW\Interfaces\Interfaces\bin\Debug\net10.0\Interfaces.pdb
+D:\Repos\CS-ITStep-HW\Interfaces\Interfaces\obj\Debug\net10.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\CS-ITStep-HW\Interfaces\Interfaces\obj\Debug\net10.0\Interfaces.AssemblyInfoInputs.cache
+D:\Repos\CS-ITStep-HW\Interfaces\Interfaces\obj\Debug\net10.0\Interfaces.AssemblyInfo.cs
+D:\Repos\CS-ITStep-HW\Interfaces\Interfaces\obj\Debug\net10.0\Interfaces.csproj.CoreCompileInputs.cache
+D:\Repos\CS-ITStep-HW\Interfaces\Interfaces\obj\Debug\net10.0\Interfaces.sourcelink.json
+D:\Repos\CS-ITStep-HW\Interfaces\Interfaces\obj\Debug\net10.0\Interfaces.dll
+D:\Repos\CS-ITStep-HW\Interfaces\Interfaces\obj\Debug\net10.0\refint\Interfaces.dll
+D:\Repos\CS-ITStep-HW\Interfaces\Interfaces\obj\Debug\net10.0\Interfaces.pdb
+D:\Repos\CS-ITStep-HW\Interfaces\Interfaces\obj\Debug\net10.0\Interfaces.genruntimeconfig.cache
+D:\Repos\CS-ITStep-HW\Interfaces\Interfaces\obj\Debug\net10.0\ref\Interfaces.dll
