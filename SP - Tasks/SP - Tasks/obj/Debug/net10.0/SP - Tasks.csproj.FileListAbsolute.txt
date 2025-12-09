@@ -1,0 +1,15 @@
+D:\Repos\CS-ITStep-HW\SP - Tasks\SP - Tasks\bin\Debug\net10.0\SP - Tasks.exe
+D:\Repos\CS-ITStep-HW\SP - Tasks\SP - Tasks\bin\Debug\net10.0\SP - Tasks.deps.json
+D:\Repos\CS-ITStep-HW\SP - Tasks\SP - Tasks\bin\Debug\net10.0\SP - Tasks.runtimeconfig.json
+D:\Repos\CS-ITStep-HW\SP - Tasks\SP - Tasks\bin\Debug\net10.0\SP - Tasks.dll
+D:\Repos\CS-ITStep-HW\SP - Tasks\SP - Tasks\bin\Debug\net10.0\SP - Tasks.pdb
+D:\Repos\CS-ITStep-HW\SP - Tasks\SP - Tasks\obj\Debug\net10.0\SP - Tasks.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\CS-ITStep-HW\SP - Tasks\SP - Tasks\obj\Debug\net10.0\SP - Tasks.AssemblyInfoInputs.cache
+D:\Repos\CS-ITStep-HW\SP - Tasks\SP - Tasks\obj\Debug\net10.0\SP - Tasks.AssemblyInfo.cs
+D:\Repos\CS-ITStep-HW\SP - Tasks\SP - Tasks\obj\Debug\net10.0\SP - Tasks.csproj.CoreCompileInputs.cache
+D:\Repos\CS-ITStep-HW\SP - Tasks\SP - Tasks\obj\Debug\net10.0\SP - Tasks.sourcelink.json
+D:\Repos\CS-ITStep-HW\SP - Tasks\SP - Tasks\obj\Debug\net10.0\SP - Tasks.dll
+D:\Repos\CS-ITStep-HW\SP - Tasks\SP - Tasks\obj\Debug\net10.0\refint\SP - Tasks.dll
+D:\Repos\CS-ITStep-HW\SP - Tasks\SP - Tasks\obj\Debug\net10.0\SP - Tasks.pdb
+D:\Repos\CS-ITStep-HW\SP - Tasks\SP - Tasks\obj\Debug\net10.0\SP - Tasks.genruntimeconfig.cache
+D:\Repos\CS-ITStep-HW\SP - Tasks\SP - Tasks\obj\Debug\net10.0\ref\SP - Tasks.dll
