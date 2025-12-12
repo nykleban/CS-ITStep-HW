@@ -1,0 +1,15 @@
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 server\bin\Debug\net10.0\tcp task 2 server.exe
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 server\bin\Debug\net10.0\tcp task 2 server.deps.json
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 server\bin\Debug\net10.0\tcp task 2 server.runtimeconfig.json
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 server\bin\Debug\net10.0\tcp task 2 server.dll
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 server\bin\Debug\net10.0\tcp task 2 server.pdb
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 server\obj\Debug\net10.0\tcp task 2 server.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 server\obj\Debug\net10.0\tcp task 2 server.AssemblyInfoInputs.cache
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 server\obj\Debug\net10.0\tcp task 2 server.AssemblyInfo.cs
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 server\obj\Debug\net10.0\tcp task 2 server.csproj.CoreCompileInputs.cache
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 server\obj\Debug\net10.0\tcp task 2 server.sourcelink.json
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 server\obj\Debug\net10.0\tcp task 2 server.dll
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 server\obj\Debug\net10.0\refint\tcp task 2 server.dll
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 server\obj\Debug\net10.0\tcp task 2 server.pdb
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 server\obj\Debug\net10.0\tcp task 2 server.genruntimeconfig.cache
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 server\obj\Debug\net10.0\ref\tcp task 2 server.dll

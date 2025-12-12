@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "tcp task 2 server/1.0.0": {
+        "runtime": {
+          "tcp task 2 server.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tcp task 2 server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

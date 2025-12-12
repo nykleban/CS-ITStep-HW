@@ -1,0 +1,15 @@
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 client\bin\Debug\net10.0\tcp task 2 client.exe
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 client\bin\Debug\net10.0\tcp task 2 client.deps.json
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 client\bin\Debug\net10.0\tcp task 2 client.runtimeconfig.json
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 client\bin\Debug\net10.0\tcp task 2 client.dll
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 client\bin\Debug\net10.0\tcp task 2 client.pdb
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 client\obj\Debug\net10.0\tcp task 2 client.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 client\obj\Debug\net10.0\tcp task 2 client.AssemblyInfoInputs.cache
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 client\obj\Debug\net10.0\tcp task 2 client.AssemblyInfo.cs
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 client\obj\Debug\net10.0\tcp task 2 client.csproj.CoreCompileInputs.cache
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 client\obj\Debug\net10.0\tcp task 2 client.sourcelink.json
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 client\obj\Debug\net10.0\tcp task 2 client.dll
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 client\obj\Debug\net10.0\refint\tcp task 2 client.dll
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 client\obj\Debug\net10.0\tcp task 2 client.pdb
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 client\obj\Debug\net10.0\tcp task 2 client.genruntimeconfig.cache
+D:\Repos\CS-ITStep-HW\NP tcp\tcp task 2 client\obj\Debug\net10.0\ref\tcp task 2 client.dll

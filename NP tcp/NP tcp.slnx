@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="NP tcp Client/NP tcp Client.csproj" />
+  <Project Path="NP tcp/NP tcp.csproj" />
+  <Project Path="tcp task 2 client/tcp task 2 client.csproj" />
+  <Project Path="tcp task 2 server/tcp task 2 server.csproj" />
+</Solution>

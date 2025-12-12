@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Repos\\CS-ITStep-HW\\NP tcp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DADB23DF-3655-4543-99D4-17482221FD13}|tcp task 2 client\\tcp task 2 client.csproj|d:\\repos\\cs-itstep-hw\\np tcp\\tcp task 2 client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DADB23DF-3655-4543-99D4-17482221FD13}|tcp task 2 client\\tcp task 2 client.csproj|solutionrelative:tcp task 2 client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8DAEE99-98A5-43EE-B83C-15F27F201825}|tcp task 2 server\\tcp task 2 server.csproj|d:\\repos\\cs-itstep-hw\\np tcp\\tcp task 2 server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8DAEE99-98A5-43EE-B83C-15F27F201825}|tcp task 2 server\\tcp task 2 server.csproj|solutionrelative:tcp task 2 server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C369F4-3CE8-49C0-87A3-1AC3B3AB2EC6}|NP tcp\\NP tcp.csproj|d:\\repos\\cs-itstep-hw\\np tcp\\np tcp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C369F4-3CE8-49C0-87A3-1AC3B3AB2EC6}|NP tcp\\NP tcp.csproj|solutionrelative:np tcp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7C80F22-392E-4FC3-BDE3-95D0FD2515AC}|NP tcp Client\\NP tcp Client.csproj|d:\\repos\\cs-itstep-hw\\np tcp\\np tcp client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7C80F22-392E-4FC3-BDE3-95D0FD2515AC}|NP tcp Client\\NP tcp Client.csproj|solutionrelative:np tcp client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 310,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\NP tcp\\tcp task 2 client\\Program.cs",
+              "RelativeDocumentMoniker": "tcp task 2 client\\Program.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\NP tcp\\tcp task 2 client\\Program.cs",
+              "RelativeToolTip": "tcp task 2 client\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T09:42:30.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\NP tcp\\tcp task 2 server\\Program.cs",
+              "RelativeDocumentMoniker": "tcp task 2 server\\Program.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\NP tcp\\tcp task 2 server\\Program.cs",
+              "RelativeToolTip": "tcp task 2 server\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T09:41:55.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\NP tcp\\NP tcp\\Program.cs",
+              "RelativeDocumentMoniker": "NP tcp\\Program.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\NP tcp\\NP tcp\\Program.cs",
+              "RelativeToolTip": "NP tcp\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T09:20:56.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\NP tcp\\NP tcp Client\\Program.cs",
+              "RelativeDocumentMoniker": "NP tcp Client\\Program.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\NP tcp\\NP tcp Client\\Program.cs",
+              "RelativeToolTip": "NP tcp Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T09:29:04.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

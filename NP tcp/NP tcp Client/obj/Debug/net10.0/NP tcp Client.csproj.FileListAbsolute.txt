@@ -1,0 +1,15 @@
+D:\Repos\CS-ITStep-HW\NP tcp\NP tcp Client\bin\Debug\net10.0\NP tcp Client.exe
+D:\Repos\CS-ITStep-HW\NP tcp\NP tcp Client\bin\Debug\net10.0\NP tcp Client.deps.json
+D:\Repos\CS-ITStep-HW\NP tcp\NP tcp Client\bin\Debug\net10.0\NP tcp Client.runtimeconfig.json
+D:\Repos\CS-ITStep-HW\NP tcp\NP tcp Client\bin\Debug\net10.0\NP tcp Client.dll
+D:\Repos\CS-ITStep-HW\NP tcp\NP tcp Client\bin\Debug\net10.0\NP tcp Client.pdb
+D:\Repos\CS-ITStep-HW\NP tcp\NP tcp Client\obj\Debug\net10.0\NP tcp Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\CS-ITStep-HW\NP tcp\NP tcp Client\obj\Debug\net10.0\NP tcp Client.AssemblyInfoInputs.cache
+D:\Repos\CS-ITStep-HW\NP tcp\NP tcp Client\obj\Debug\net10.0\NP tcp Client.AssemblyInfo.cs
+D:\Repos\CS-ITStep-HW\NP tcp\NP tcp Client\obj\Debug\net10.0\NP tcp Client.csproj.CoreCompileInputs.cache
+D:\Repos\CS-ITStep-HW\NP tcp\NP tcp Client\obj\Debug\net10.0\NP tcp Client.sourcelink.json
+D:\Repos\CS-ITStep-HW\NP tcp\NP tcp Client\obj\Debug\net10.0\NP tcp Client.dll
+D:\Repos\CS-ITStep-HW\NP tcp\NP tcp Client\obj\Debug\net10.0\refint\NP tcp Client.dll
+D:\Repos\CS-ITStep-HW\NP tcp\NP tcp Client\obj\Debug\net10.0\NP tcp Client.pdb
+D:\Repos\CS-ITStep-HW\NP tcp\NP tcp Client\obj\Debug\net10.0\NP tcp Client.genruntimeconfig.cache
+D:\Repos\CS-ITStep-HW\NP tcp\NP tcp Client\obj\Debug\net10.0\ref\NP tcp Client.dll
