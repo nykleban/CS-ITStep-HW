@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Repos\\CS-ITStep-HW\\Delegates\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94A42A7B-F590-478E-A2A4-0D17C03C4FA2}|Delegates\\Delegates.csproj|d:\\repos\\cs-itstep-hw\\delegates\\delegates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A42A7B-F590-478E-A2A4-0D17C03C4FA2}|Delegates\\Delegates.csproj|solutionrelative:delegates\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A42A7B-F590-478E-A2A4-0D17C03C4FA2}|Delegates\\Delegates.csproj|d:\\repos\\cs-itstep-hw\\delegates\\delegates\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A42A7B-F590-478E-A2A4-0D17C03C4FA2}|Delegates\\Delegates.csproj|solutionrelative:delegates\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94A42A7B-F590-478E-A2A4-0D17C03C4FA2}|Delegates\\Delegates.csproj|d:\\repos\\cs-itstep-hw\\delegates\\delegates\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94A42A7B-F590-478E-A2A4-0D17C03C4FA2}|Delegates\\Delegates.csproj|solutionrelative:delegates\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 310,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\Delegates\\Delegates\\Program.cs",
+              "RelativeDocumentMoniker": "Delegates\\Program.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\Delegates\\Delegates\\Program.cs*",
+              "RelativeToolTip": "Delegates\\Program.cs*",
+              "ViewState": "AgIAALYAAAAAAAAAAAAiwLsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T07:52:24.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\Delegates\\Delegates\\Rectangle.cs",
+              "RelativeDocumentMoniker": "Delegates\\Rectangle.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\Delegates\\Delegates\\Rectangle.cs",
+              "RelativeToolTip": "Delegates\\Rectangle.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:25:46.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Triangle.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\Delegates\\Delegates\\Triangle.cs",
+              "RelativeDocumentMoniker": "Delegates\\Triangle.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\Delegates\\Delegates\\Triangle.cs",
+              "RelativeToolTip": "Delegates\\Triangle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T08:24:59.542Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

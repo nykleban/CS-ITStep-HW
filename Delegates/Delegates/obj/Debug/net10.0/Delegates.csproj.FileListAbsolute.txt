@@ -1,0 +1,15 @@
+D:\Repos\CS-ITStep-HW\Delegates\Delegates\bin\Debug\net10.0\Delegates.exe
+D:\Repos\CS-ITStep-HW\Delegates\Delegates\bin\Debug\net10.0\Delegates.deps.json
+D:\Repos\CS-ITStep-HW\Delegates\Delegates\bin\Debug\net10.0\Delegates.runtimeconfig.json
+D:\Repos\CS-ITStep-HW\Delegates\Delegates\bin\Debug\net10.0\Delegates.dll
+D:\Repos\CS-ITStep-HW\Delegates\Delegates\bin\Debug\net10.0\Delegates.pdb
+D:\Repos\CS-ITStep-HW\Delegates\Delegates\obj\Debug\net10.0\Delegates.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\CS-ITStep-HW\Delegates\Delegates\obj\Debug\net10.0\Delegates.AssemblyInfoInputs.cache
+D:\Repos\CS-ITStep-HW\Delegates\Delegates\obj\Debug\net10.0\Delegates.AssemblyInfo.cs
+D:\Repos\CS-ITStep-HW\Delegates\Delegates\obj\Debug\net10.0\Delegates.csproj.CoreCompileInputs.cache
+D:\Repos\CS-ITStep-HW\Delegates\Delegates\obj\Debug\net10.0\Delegates.sourcelink.json
+D:\Repos\CS-ITStep-HW\Delegates\Delegates\obj\Debug\net10.0\Delegates.dll
+D:\Repos\CS-ITStep-HW\Delegates\Delegates\obj\Debug\net10.0\refint\Delegates.dll
+D:\Repos\CS-ITStep-HW\Delegates\Delegates\obj\Debug\net10.0\Delegates.pdb
+D:\Repos\CS-ITStep-HW\Delegates\Delegates\obj\Debug\net10.0\Delegates.genruntimeconfig.cache
+D:\Repos\CS-ITStep-HW\Delegates\Delegates\obj\Debug\net10.0\ref\Delegates.dll
