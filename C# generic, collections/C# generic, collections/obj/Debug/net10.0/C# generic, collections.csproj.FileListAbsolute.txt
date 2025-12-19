@@ -1,0 +1,15 @@
+D:\Repos\CS-ITStep-HW\C# generic, collections\C# generic, collections\bin\Debug\net10.0\C# generic, collections.exe
+D:\Repos\CS-ITStep-HW\C# generic, collections\C# generic, collections\bin\Debug\net10.0\C# generic, collections.deps.json
+D:\Repos\CS-ITStep-HW\C# generic, collections\C# generic, collections\bin\Debug\net10.0\C# generic, collections.runtimeconfig.json
+D:\Repos\CS-ITStep-HW\C# generic, collections\C# generic, collections\bin\Debug\net10.0\C# generic, collections.dll
+D:\Repos\CS-ITStep-HW\C# generic, collections\C# generic, collections\bin\Debug\net10.0\C# generic, collections.pdb
+D:\Repos\CS-ITStep-HW\C# generic, collections\C# generic, collections\obj\Debug\net10.0\C# generic, collections.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\CS-ITStep-HW\C# generic, collections\C# generic, collections\obj\Debug\net10.0\C# generic, collections.AssemblyInfoInputs.cache
+D:\Repos\CS-ITStep-HW\C# generic, collections\C# generic, collections\obj\Debug\net10.0\C# generic, collections.AssemblyInfo.cs
+D:\Repos\CS-ITStep-HW\C# generic, collections\C# generic, collections\obj\Debug\net10.0\C# generic, collections.csproj.CoreCompileInputs.cache
+D:\Repos\CS-ITStep-HW\C# generic, collections\C# generic, collections\obj\Debug\net10.0\C# generic, collections.sourcelink.json
+D:\Repos\CS-ITStep-HW\C# generic, collections\C# generic, collections\obj\Debug\net10.0\C# generic, collections.dll
+D:\Repos\CS-ITStep-HW\C# generic, collections\C# generic, collections\obj\Debug\net10.0\refint\C# generic, collections.dll
+D:\Repos\CS-ITStep-HW\C# generic, collections\C# generic, collections\obj\Debug\net10.0\C# generic, collections.pdb
+D:\Repos\CS-ITStep-HW\C# generic, collections\C# generic, collections\obj\Debug\net10.0\C# generic, collections.genruntimeconfig.cache
+D:\Repos\CS-ITStep-HW\C# generic, collections\C# generic, collections\obj\Debug\net10.0\ref\C# generic, collections.dll
