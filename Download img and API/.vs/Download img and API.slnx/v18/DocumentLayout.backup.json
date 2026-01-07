@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Repos\\CS-ITStep-HW\\Download img and API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3272F48-C829-4714-A374-253EE72F201C}|Download img and API\\Download img and API.csproj|d:\\repos\\cs-itstep-hw\\download img and api\\download img and api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3272F48-C829-4714-A374-253EE72F201C}|Download img and API\\Download img and API.csproj|solutionrelative:download img and api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 310,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\Download img and API\\Download img and API\\Program.cs",
+              "RelativeDocumentMoniker": "Download img and API\\Program.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\Download img and API\\Download img and API\\Program.cs*",
+              "RelativeToolTip": "Download img and API\\Program.cs*",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwEkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T19:51:59.436Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

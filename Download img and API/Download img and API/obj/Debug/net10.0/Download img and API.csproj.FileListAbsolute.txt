@@ -1,0 +1,15 @@
+D:\Repos\CS-ITStep-HW\Download img and API\Download img and API\bin\Debug\net10.0\Download img and API.exe
+D:\Repos\CS-ITStep-HW\Download img and API\Download img and API\bin\Debug\net10.0\Download img and API.deps.json
+D:\Repos\CS-ITStep-HW\Download img and API\Download img and API\bin\Debug\net10.0\Download img and API.runtimeconfig.json
+D:\Repos\CS-ITStep-HW\Download img and API\Download img and API\bin\Debug\net10.0\Download img and API.dll
+D:\Repos\CS-ITStep-HW\Download img and API\Download img and API\bin\Debug\net10.0\Download img and API.pdb
+D:\Repos\CS-ITStep-HW\Download img and API\Download img and API\obj\Debug\net10.0\Download img and API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\CS-ITStep-HW\Download img and API\Download img and API\obj\Debug\net10.0\Download img and API.AssemblyInfoInputs.cache
+D:\Repos\CS-ITStep-HW\Download img and API\Download img and API\obj\Debug\net10.0\Download img and API.AssemblyInfo.cs
+D:\Repos\CS-ITStep-HW\Download img and API\Download img and API\obj\Debug\net10.0\Download img and API.csproj.CoreCompileInputs.cache
+D:\Repos\CS-ITStep-HW\Download img and API\Download img and API\obj\Debug\net10.0\Download img and API.sourcelink.json
+D:\Repos\CS-ITStep-HW\Download img and API\Download img and API\obj\Debug\net10.0\Download img and API.dll
+D:\Repos\CS-ITStep-HW\Download img and API\Download img and API\obj\Debug\net10.0\refint\Download img and API.dll
+D:\Repos\CS-ITStep-HW\Download img and API\Download img and API\obj\Debug\net10.0\Download img and API.pdb
+D:\Repos\CS-ITStep-HW\Download img and API\Download img and API\obj\Debug\net10.0\Download img and API.genruntimeconfig.cache
+D:\Repos\CS-ITStep-HW\Download img and API\Download img and API\obj\Debug\net10.0\ref\Download img and API.dll
