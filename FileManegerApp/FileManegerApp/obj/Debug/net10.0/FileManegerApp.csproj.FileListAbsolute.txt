@@ -1,0 +1,15 @@
+D:\Repos\CS-ITStep-HW\FileManegerApp\FileManegerApp\bin\Debug\net10.0\FileManegerApp.exe
+D:\Repos\CS-ITStep-HW\FileManegerApp\FileManegerApp\bin\Debug\net10.0\FileManegerApp.deps.json
+D:\Repos\CS-ITStep-HW\FileManegerApp\FileManegerApp\bin\Debug\net10.0\FileManegerApp.runtimeconfig.json
+D:\Repos\CS-ITStep-HW\FileManegerApp\FileManegerApp\bin\Debug\net10.0\FileManegerApp.dll
+D:\Repos\CS-ITStep-HW\FileManegerApp\FileManegerApp\bin\Debug\net10.0\FileManegerApp.pdb
+D:\Repos\CS-ITStep-HW\FileManegerApp\FileManegerApp\obj\Debug\net10.0\FileManegerApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\CS-ITStep-HW\FileManegerApp\FileManegerApp\obj\Debug\net10.0\FileManegerApp.AssemblyInfoInputs.cache
+D:\Repos\CS-ITStep-HW\FileManegerApp\FileManegerApp\obj\Debug\net10.0\FileManegerApp.AssemblyInfo.cs
+D:\Repos\CS-ITStep-HW\FileManegerApp\FileManegerApp\obj\Debug\net10.0\FileManegerApp.csproj.CoreCompileInputs.cache
+D:\Repos\CS-ITStep-HW\FileManegerApp\FileManegerApp\obj\Debug\net10.0\FileManegerApp.sourcelink.json
+D:\Repos\CS-ITStep-HW\FileManegerApp\FileManegerApp\obj\Debug\net10.0\FileManegerApp.dll
+D:\Repos\CS-ITStep-HW\FileManegerApp\FileManegerApp\obj\Debug\net10.0\refint\FileManegerApp.dll
+D:\Repos\CS-ITStep-HW\FileManegerApp\FileManegerApp\obj\Debug\net10.0\FileManegerApp.pdb
+D:\Repos\CS-ITStep-HW\FileManegerApp\FileManegerApp\obj\Debug\net10.0\FileManegerApp.genruntimeconfig.cache
+D:\Repos\CS-ITStep-HW\FileManegerApp\FileManegerApp\obj\Debug\net10.0\ref\FileManegerApp.dll
