@@ -1,0 +1,15 @@
+D:\Repos\CS-ITStep-HW\SMTP\SMTP\bin\Debug\net10.0\SMTP.exe
+D:\Repos\CS-ITStep-HW\SMTP\SMTP\bin\Debug\net10.0\SMTP.deps.json
+D:\Repos\CS-ITStep-HW\SMTP\SMTP\bin\Debug\net10.0\SMTP.runtimeconfig.json
+D:\Repos\CS-ITStep-HW\SMTP\SMTP\bin\Debug\net10.0\SMTP.dll
+D:\Repos\CS-ITStep-HW\SMTP\SMTP\bin\Debug\net10.0\SMTP.pdb
+D:\Repos\CS-ITStep-HW\SMTP\SMTP\obj\Debug\net10.0\SMTP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\CS-ITStep-HW\SMTP\SMTP\obj\Debug\net10.0\SMTP.AssemblyInfoInputs.cache
+D:\Repos\CS-ITStep-HW\SMTP\SMTP\obj\Debug\net10.0\SMTP.AssemblyInfo.cs
+D:\Repos\CS-ITStep-HW\SMTP\SMTP\obj\Debug\net10.0\SMTP.csproj.CoreCompileInputs.cache
+D:\Repos\CS-ITStep-HW\SMTP\SMTP\obj\Debug\net10.0\SMTP.sourcelink.json
+D:\Repos\CS-ITStep-HW\SMTP\SMTP\obj\Debug\net10.0\SMTP.dll
+D:\Repos\CS-ITStep-HW\SMTP\SMTP\obj\Debug\net10.0\refint\SMTP.dll
+D:\Repos\CS-ITStep-HW\SMTP\SMTP\obj\Debug\net10.0\SMTP.pdb
+D:\Repos\CS-ITStep-HW\SMTP\SMTP\obj\Debug\net10.0\SMTP.genruntimeconfig.cache
+D:\Repos\CS-ITStep-HW\SMTP\SMTP\obj\Debug\net10.0\ref\SMTP.dll
