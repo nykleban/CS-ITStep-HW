@@ -1,0 +1,15 @@
+D:\Repos\CS-ITStep-HW\Linq\Linq\bin\Debug\net10.0\Linq.exe
+D:\Repos\CS-ITStep-HW\Linq\Linq\bin\Debug\net10.0\Linq.deps.json
+D:\Repos\CS-ITStep-HW\Linq\Linq\bin\Debug\net10.0\Linq.runtimeconfig.json
+D:\Repos\CS-ITStep-HW\Linq\Linq\bin\Debug\net10.0\Linq.dll
+D:\Repos\CS-ITStep-HW\Linq\Linq\bin\Debug\net10.0\Linq.pdb
+D:\Repos\CS-ITStep-HW\Linq\Linq\obj\Debug\net10.0\Linq.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\CS-ITStep-HW\Linq\Linq\obj\Debug\net10.0\Linq.AssemblyInfoInputs.cache
+D:\Repos\CS-ITStep-HW\Linq\Linq\obj\Debug\net10.0\Linq.AssemblyInfo.cs
+D:\Repos\CS-ITStep-HW\Linq\Linq\obj\Debug\net10.0\Linq.csproj.CoreCompileInputs.cache
+D:\Repos\CS-ITStep-HW\Linq\Linq\obj\Debug\net10.0\Linq.sourcelink.json
+D:\Repos\CS-ITStep-HW\Linq\Linq\obj\Debug\net10.0\Linq.dll
+D:\Repos\CS-ITStep-HW\Linq\Linq\obj\Debug\net10.0\refint\Linq.dll
+D:\Repos\CS-ITStep-HW\Linq\Linq\obj\Debug\net10.0\Linq.pdb
+D:\Repos\CS-ITStep-HW\Linq\Linq\obj\Debug\net10.0\Linq.genruntimeconfig.cache
+D:\Repos\CS-ITStep-HW\Linq\Linq\obj\Debug\net10.0\ref\Linq.dll
