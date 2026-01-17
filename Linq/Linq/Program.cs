@@ -3,32 +3,32 @@
 namespace Linq
 {
 
-        internal class Program
+    internal class Program
+    {
+        static void Main(string[] args)
         {
-            static void Main(string[] args)
-            {
-                Console.OutputEncoding = Encoding.UTF8;
-                var today = DateTime.Today;
+            Console.OutputEncoding = Encoding.UTF8;
+            var today = DateTime.Today;
 
-                
-                // Згенеровано ШІ 
 
-                var emp1 = new Employee("Іван Іванов", "Manager", "+380991112233", "ivan@mail.com", 1500);
-                var emp2 = new Employee("Діана Принс", "Manager", "+380992223344", "diana@mail.com", 2500); 
-                var emp3 = new Employee("Lionel Messi", "Forward", "2300011122", "messi@mail.com", 5000000);
-                var emp4 = new Employee("Lionel Richie", "Musician", "2355566677", "hello@music.com", 4000);
-                var emp5 = new Employee("Diego Costa", "Logist", "+380995556677", "diego@mail.com", 1200);
-                var emp6 = new Employee("Дмитро Козак", "IT Support", "+380998889900", "dimas@mail.com", 1100);
-                var emp7 = new Employee("Сара Коннор", "Security", "+380990000000", "sarah@sky.net", 3000);
+            // Згенеровано ШІ 
 
-                var firms = new List<Firma>
+            var emp1 = new Employee("Іван Іванов", "Manager", "+380991112233", "ivan@mail.com", 1500);
+            var emp2 = new Employee("Діана Принс", "Manager", "+380992223344", "diana@mail.com", 2500);
+            var emp3 = new Employee("Lionel Messi", "Forward", "2300011122", "messi@mail.com", 5000000);
+            var emp4 = new Employee("Lionel Richie", "Musician", "2355566677", "hello@music.com", 4000);
+            var emp5 = new Employee("Diego Costa", "Logist", "+380995556677", "diego@mail.com", 1200);
+            var emp6 = new Employee("Дмитро Козак", "IT Support", "+380998889900", "dimas@mail.com", 1100);
+            var emp7 = new Employee("Сара Коннор", "Security", "+380990000000", "sarah@sky.net", 3000);
+
+            var firms = new List<Firma>
             {
                 new Firma("Healthy Food Ltd", new DateTime(2020, 5, 20), "Marketing", "John White", 150, "123 Baker St, London",
                     new List<Employee> { emp1, emp3 }),
-               
+
                 new Firma("Tech Solutions", new DateTime(2018, 1, 10), "IT", "Alice Smith", 400, "New York, USA",
                     new List<Employee> { emp4, emp7 }),
-                
+
                 new Firma("Bright Marketing", new DateTime(2023, 3, 15), "Marketing", "Bob Brown", 50, "Kyiv, Ukraine",
                     new List<Employee> { emp2 }),
 
@@ -36,12 +36,22 @@ namespace Linq
                      new List<Employee> { emp6 }),
 
                 new Firma("Fast Food Tech", today.AddDays(-123), "IT", "Sarah Connor", 120, "London, UK"),
-                
+
                 new Firma("Global Trade", today.AddYears(-1), "Logistics", "Walter White", 250, "Warsaw, Poland",
-                    new List<Employee> { emp5 })
+                    new List<Employee> { emp5 }),
+
+
+                new Firma{Name = "Creative Minds",
+                    DateOfEstablishment = new DateTime(2019, 11, 5),
+                    BusinessProfile = "Marketing",
+                    PIB_Director = "Emma Green",
+                    NumberOfEmployees = 80,
+                    Address = "Berlin, Germany",
+                    Employees = new List<Employee>() {emp1, emp2} }
+
             };
 
-                Console.WriteLine("=== Перевірка структури (Фірми + Працівники) ===");
+            Console.WriteLine("=== Перевірка структури (Фірми + Працівники) ===");
             firms.Print();
 
             Console.WriteLine("Усі фірми:");
