@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Repos\\CS-ITStep-HW\\GameDB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7871048A-932F-433C-9B62-8818197A9712}|GameDB\\GameDB.csproj|d:\\repos\\cs-itstep-hw\\gamedb\\gamedb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7871048A-932F-433C-9B62-8818197A9712}|GameDB\\GameDB.csproj|solutionrelative:gamedb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7871048A-932F-433C-9B62-8818197A9712}|GameDB\\GameDB.csproj|d:\\repos\\cs-itstep-hw\\gamedb\\gamedb\\entities\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7871048A-932F-433C-9B62-8818197A9712}|GameDB\\GameDB.csproj|solutionrelative:gamedb\\entities\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7871048A-932F-433C-9B62-8818197A9712}|GameDB\\GameDB.csproj|d:\\repos\\cs-itstep-hw\\gamedb\\gamedb\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7871048A-932F-433C-9B62-8818197A9712}|GameDB\\GameDB.csproj|solutionrelative:gamedb\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7871048A-932F-433C-9B62-8818197A9712}|GameDB\\GameDB.csproj|d:\\repos\\cs-itstep-hw\\gamedb\\gamedb\\entities\\gameentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7871048A-932F-433C-9B62-8818197A9712}|GameDB\\GameDB.csproj|solutionrelative:gamedb\\entities\\gameentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 310,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameMode.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\GameDB\\GameDB\\Entities\\GameMode.cs",
+              "RelativeDocumentMoniker": "GameDB\\Entities\\GameMode.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\GameDB\\GameDB\\Entities\\GameMode.cs",
+              "RelativeToolTip": "GameDB\\Entities\\GameMode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:52:09.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\GameDB\\GameDB\\Program.cs",
+              "RelativeDocumentMoniker": "GameDB\\Program.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\GameDB\\GameDB\\Program.cs",
+              "RelativeToolTip": "GameDB\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:33:34.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\GameDB\\GameDB\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "GameDB\\AppDbContext.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\GameDB\\GameDB\\AppDbContext.cs",
+              "RelativeToolTip": "GameDB\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:37:00.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameEntity.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\GameDB\\GameDB\\Entities\\GameEntity.cs",
+              "RelativeDocumentMoniker": "GameDB\\Entities\\GameEntity.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\GameDB\\GameDB\\Entities\\GameEntity.cs",
+              "RelativeToolTip": "GameDB\\Entities\\GameEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T09:36:40.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
