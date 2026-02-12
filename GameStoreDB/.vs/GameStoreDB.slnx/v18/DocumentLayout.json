@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Repos\\CS-ITStep-HW\\GameStoreDB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D73F0971-9EE3-4000-8825-FA6C80231197}|GameStoreDB\\GameStoreDB.csproj|d:\\repos\\cs-itstep-hw\\gamestoredb\\gamestoredb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D73F0971-9EE3-4000-8825-FA6C80231197}|GameStoreDB\\GameStoreDB.csproj|solutionrelative:gamestoredb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Repos\\CS-ITStep-HW\\GameStoreDB\\GameStoreDB\\Migrations\\20260212155129_Working2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GameStoreDB\\Migrations\\20260212155129_Working2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D73F0971-9EE3-4000-8825-FA6C80231197}|GameStoreDB\\GameStoreDB.csproj|d:\\repos\\cs-itstep-hw\\gamestoredb\\gamestoredb\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D73F0971-9EE3-4000-8825-FA6C80231197}|GameStoreDB\\GameStoreDB.csproj|solutionrelative:gamestoredb\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D73F0971-9EE3-4000-8825-FA6C80231197}|GameStoreDB\\GameStoreDB.csproj|d:\\repos\\cs-itstep-hw\\gamestoredb\\gamestoredb\\entities\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D73F0971-9EE3-4000-8825-FA6C80231197}|GameStoreDB\\GameStoreDB.csproj|solutionrelative:gamestoredb\\entities\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D73F0971-9EE3-4000-8825-FA6C80231197}|GameStoreDB\\GameStoreDB.csproj|d:\\repos\\cs-itstep-hw\\gamestoredb\\gamestoredb\\entities\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D73F0971-9EE3-4000-8825-FA6C80231197}|GameStoreDB\\GameStoreDB.csproj|solutionrelative:gamestoredb\\entities\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Repos\\CS-ITStep-HW\\GameStoreDB\\GameStoreDB\\Migrations\\20260212154517_Working.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GameStoreDB\\Migrations\\20260212154517_Working.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D73F0971-9EE3-4000-8825-FA6C80231197}|GameStoreDB\\GameStoreDB.csproj|d:\\repos\\cs-itstep-hw\\gamestoredb\\gamestoredb\\repositories\\ipublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D73F0971-9EE3-4000-8825-FA6C80231197}|GameStoreDB\\GameStoreDB.csproj|solutionrelative:gamestoredb\\repositories\\ipublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 130,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260212155129_Working2.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\GameStoreDB\\GameStoreDB\\Migrations\\20260212155129_Working2.cs",
+              "RelativeDocumentMoniker": "GameStoreDB\\Migrations\\20260212155129_Working2.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\GameStoreDB\\GameStoreDB\\Migrations\\20260212155129_Working2.cs",
+              "RelativeToolTip": "GameStoreDB\\Migrations\\20260212155129_Working2.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T15:51:29.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20260212154517_Working.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\GameStoreDB\\GameStoreDB\\Migrations\\20260212154517_Working.cs",
+              "RelativeDocumentMoniker": "GameStoreDB\\Migrations\\20260212154517_Working.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\GameStoreDB\\GameStoreDB\\Migrations\\20260212154517_Working.cs",
+              "RelativeToolTip": "GameStoreDB\\Migrations\\20260212154517_Working.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T15:45:17.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPublisher.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\GameStoreDB\\GameStoreDB\\Repositories\\IPublisher.cs",
+              "RelativeDocumentMoniker": "GameStoreDB\\Repositories\\IPublisher.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\GameStoreDB\\GameStoreDB\\Repositories\\IPublisher.cs",
+              "RelativeToolTip": "GameStoreDB\\Repositories\\IPublisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T15:40:08.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Publisher.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\GameStoreDB\\GameStoreDB\\Entities\\Publisher.cs",
+              "RelativeDocumentMoniker": "GameStoreDB\\Entities\\Publisher.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\GameStoreDB\\GameStoreDB\\Entities\\Publisher.cs",
+              "RelativeToolTip": "GameStoreDB\\Entities\\Publisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T14:06:31.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\GameStoreDB\\GameStoreDB\\Entities\\Game.cs",
+              "RelativeDocumentMoniker": "GameStoreDB\\Entities\\Game.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\GameStoreDB\\GameStoreDB\\Entities\\Game.cs",
+              "RelativeToolTip": "GameStoreDB\\Entities\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T14:01:37.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\GameStoreDB\\GameStoreDB\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "GameStoreDB\\AppDbContext.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\GameStoreDB\\GameStoreDB\\AppDbContext.cs",
+              "RelativeToolTip": "GameStoreDB\\AppDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T13:50:52.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repos\\CS-ITStep-HW\\GameStoreDB\\GameStoreDB\\Program.cs",
+              "RelativeDocumentMoniker": "GameStoreDB\\Program.cs",
+              "ToolTip": "D:\\Repos\\CS-ITStep-HW\\GameStoreDB\\GameStoreDB\\Program.cs",
+              "RelativeToolTip": "GameStoreDB\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAADcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T13:49:08.797Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
