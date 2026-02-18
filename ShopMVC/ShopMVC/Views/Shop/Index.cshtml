@@ -1,0 +1,49 @@
+﻿@using ShopMVC.Models
+@model IEnumerable<ProductModel>
+@{
+	ViewData["Title"] = "Магазин";
+}
+<style>
+	a {
+		color: #363639;
+		text-decoration: none;
+	}
+
+		a:hover {
+			color: #000000;
+			text-decoration: blink;
+		}
+
+</style>
+<div>
+	<h2 class="text-center">Список товарів</h2>
+
+	<div>
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">First</th>
+					<th scope="col">Last</th>
+					<th scope="col">Handle</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var pr in Model)
+				{
+					<tr>
+						<th>  <a asp-action="Details" asp-route-id="@pr.Id">@pr.Id</a></th>
+						<td>  <a asp-action="Details" asp-route-id="@pr.Id"> @pr.Name</a></td>
+						<td>  <a asp-action="Details" asp-route-id="@pr.Id"> @pr.Price</a></td>
+						<td>  <a asp-action="Details" asp-route-id="@pr.Id"> @(pr.Category != null ? pr.Category.Name : "Без категорії")</a></td>
+						<td>  <a asp-action="Details" asp-route-id="@pr.Id">
+							<img class="image-scale" height="60" src="@pr.Image" alt="@pr.Name">
+							</a>
+						</td>
+					</tr>
+				}
+
+			</tbody>
+		</table>
+	</div>
+</div>
