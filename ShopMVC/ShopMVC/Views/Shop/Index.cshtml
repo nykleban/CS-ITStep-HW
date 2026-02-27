@@ -1,49 +1,108 @@
 ﻿@using ShopMVC.Models
 @model IEnumerable<ProductModel>
+
 @{
-	ViewData["Title"] = "Магазин";
+    ViewData["Title"] = "Магазин";
 }
+
 <style>
-	a {
-		color: #363639;
-		text-decoration: none;
-	}
+    a {
+        color: #363639;
+        text-decoration: none;
+    }
 
-		a:hover {
-			color: #000000;
-			text-decoration: blink;
-		}
+        a:hover {
+            color: #000000;
+            text-decoration: underline;
+        }
 
+    .out-of-stock-row {
+        opacity: 0.55;
+        background-color: #f8f9fa;
+    }
 </style>
-<div>
-	<h2 class="text-center">Список товарів</h2>
 
-	<div>
-		<table class="table table-hover">
-			<thead>
-				<tr>
-					<th scope="col">#</th>
-					<th scope="col">First</th>
-					<th scope="col">Last</th>
-					<th scope="col">Handle</th>
-				</tr>
-			</thead>
-			<tbody>
-				@foreach (var pr in Model)
-				{
-					<tr>
-						<th>  <a asp-action="Details" asp-route-id="@pr.Id">@pr.Id</a></th>
-						<td>  <a asp-action="Details" asp-route-id="@pr.Id"> @pr.Name</a></td>
-						<td>  <a asp-action="Details" asp-route-id="@pr.Id"> @pr.Price</a></td>
-						<td>  <a asp-action="Details" asp-route-id="@pr.Id"> @(pr.Category != null ? pr.Category.Name : "Без категорії")</a></td>
-						<td>  <a asp-action="Details" asp-route-id="@pr.Id">
-							<img class="image-scale" height="60" src="@pr.Image" alt="@pr.Name">
-							</a>
-						</td>
-					</tr>
-				}
+<div class="container">
+    <h2 class="text-center">Список товарів</h2>
 
-			</tbody>
-		</table>
-	</div>
+    <div>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Назва</th>
+                    <th scope="col">Ціна</th>
+                    <th scope="col">Категорія</th>
+                    <th scope="col">Фото</th>
+                    <th scope="col">К-сть</th>
+                    <th scope="col">Дії</th>
+                    <th>
+                        <a class="text-black" asp-controller="Shop" asp-action="Create">
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </a>
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var pr in Model)
+                {
+
+                    <tr class="@( pr.Amount == 0 ? "out-of-stock-row" : "")">
+                        <th>
+                            <a asp-action="Details" asp-route-id="@pr.Id">@pr.Id</a>
+                        </th>
+
+                        <td>
+                            <a asp-action="Details" asp-route-id="@pr.Id">@pr.Name</a>
+                        </td>
+
+                        <td>
+                            <a asp-action="Details" asp-route-id="@pr.Id">
+                                @if (pr.Amount == 0)
+                                {
+                                    <span class="text-danger">Немає в наявності</span>
+                                }
+                                else
+                                {
+                                    <span>@pr.Price.ToString("#.##") ₴</span>
+                                }
+                            </a>
+                        </td>
+
+                        <td>
+                            <a asp-action="Details" asp-route-id="@pr.Id">@(pr.Category != null ? pr.Category.Name : "Без категорії")</a>
+                        </td>
+
+                        <td>
+                            <a asp-action="Details" asp-route-id="@pr.Id">
+                                <img class="image-scale" height="50"
+                                     src="~/images/@(string.IsNullOrWhiteSpace(pr.Image) ? "noimage.png" : $"products/{pr.Image}")"
+                                     alt="@pr.Name">
+                            </a>
+                        </td>
+
+                        <td>
+                            <a asp-action="Details" asp-route-id="@pr.Id">@pr.Amount</a>
+                        </td>
+
+                        <td>
+                            <a class="text-decoration-none text-dark" asp-action="Edit" asp-route-id="@pr.Id">
+                                <i class="bi bi-pencil-square"></i>
+                            </a>
+
+                            <form asp-action="Delete" asp-route-id="@pr.Id" method="post" class="d-inline">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-link text-dark p-0 mx-2">
+                                    <i class="bi bi-trash-fill"></i>
+                                </button>
+                            </form>
+                        </td>
+
+                        <td></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 </div>

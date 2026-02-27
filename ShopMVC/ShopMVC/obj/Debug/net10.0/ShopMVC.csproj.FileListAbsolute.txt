@@ -224,5 +224,6 @@ D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\obj\Debug\net10.0\refint\ShopMVC.dll
 D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\obj\Debug\net10.0\ShopMVC.pdb
 D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\obj\Debug\net10.0\ShopMVC.genruntimeconfig.cache
 D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\obj\Debug\net10.0\ref\ShopMVC.dll
-D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\obj\Debug\net10.0\compressed\8dz7lbvehy-{0}-2rullc219w-2rullc219w.gz
-D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\obj\Debug\net10.0\compressed\6hgijjabsr-{0}-2rullc219w-2rullc219w.gz
+D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\obj\Debug\net10.0\compressed\seu8w1hna3-{0}-zqltuijmmh-zqltuijmmh.gz
+D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\obj\Debug\net10.0\compressed\8dz7lbvehy-{0}-paodz6ynzp-paodz6ynzp.gz
+D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\obj\Debug\net10.0\compressed\6hgijjabsr-{0}-paodz6ynzp-paodz6ynzp.gz

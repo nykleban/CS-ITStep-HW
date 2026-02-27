@@ -2,55 +2,73 @@
 @model ProductModel
 
 @{
-    ViewData["Title"] = "Деталі товару " + Model.Name;
+	ViewData["Title"] = "Деталі товару " + Model.Name;
+	var isOutOfStock = Model.Amount == 0;
 }
 
 <style>
-    a {
-        color: #363636;
-        text-decoration: none;
-    }
+	a {
+		color: #363636;
+		text-decoration: none;
+	}
 
-        a:hover {
-            color: #000000;
-            text-decoration: underline;
-        }
+	a:hover {
+		color: #000000;
+		text-decoration: underline;
+	}
 
-    .card {
-        border-radius: 12px;
-    }
+	.card {
+		border-radius: 12px;
+	}
 
-    .col-md-4 {
-        padding: 14px;
-    }
+	.col-md-4 {
+		padding: 14px;
+	}
 
-    img.rounded-start {
-        max-height: 220px;
-        width: 100%;
-    }
+	img.rounded-start {
+		max-height: 220px;
+		width: 100%;
+	}
 
-    .card-body {
-        padding: 18px;
-    }
+	.card-body {
+		padding: 18px;
+	}
 </style>
 
 <h2 class="text-center">Деталі товару @Model.Name</h2>
 
 <div class="d-flex justify-content-center">
-    <div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-            <div class="col-md-4 d-flex align-items-center justify-content-center">
-                <img src="@Model.Image" class="w-100 h-100 rounded-start" alt="@Model.Name">
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                    <h5 class="card-title">@Model.Name</h5>
-                    <p class="card-text">Ціна: @Model.Price</p>
-                    <p class="card-text">Категорія: @(Model.Category != null ? Model.Category.Name : "Без категорії")</p>
-                    <p class="card-text">Опис: @Model.Description</p>
-                    <p style="font-size: 10px; color: lightgray;">Дата додавання: @Model.CreateDate</p>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="card mb-3" style="max-width: 540px;">
+		<div class="row g-0">
+			<div class="col-md-4 d-flex align-items-center justify-content-center">
+				<img class="w-100 h-100 rounded-start object-fit-contain"
+					 src="~/images/@(string.IsNullOrWhiteSpace(Model.Image) ? "noimage.png" : $"products/{Model.Image}")"
+					 alt="@Model.Name">
+			</div>
+
+			<div class="col-md-8">
+				<div class="card-body">
+					<h5 class="card-title">@Model.Name</h5>
+
+					<p class="card-text">Ціна: @Model.Price</p>
+
+					<p class="card-text">
+						Кількість в наявності:
+						@if (isOutOfStock)
+						{
+							<span class="text-danger fw-bold">Немає в наявності</span>
+						}
+						else
+						{
+							<span>@Model.Amount</span>
+						}
+					</p>
+
+					<p class="card-text">Категорія: @(Model.Category != null ? Model.Category.Name : "Без категорії")</p>
+					<p class="card-text">Опис: @Model.Description</p>
+					<p style="font-size: 10px; color: lightgray;">Дата додавання: @Model.CreateDate</p>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>

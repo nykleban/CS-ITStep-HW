@@ -1,14 +1,48 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using ShopMVC.Data;
 using ShopMVC.Models;
+using ShopMVC.ViewModels;
 using System.Diagnostics;
 
 namespace ShopMVC.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        private readonly AppDbContext _context;
+
+        public HomeController(AppDbContext context)
         {
-            return View();
+            _context = context;
+        }
+
+        public async Task<IActionResult> Index(string? category)
+        {
+            var categories = await _context.Categories.ToListAsync();
+            IQueryable<ProductModel> products = _context.Products;
+
+            if (!string.IsNullOrWhiteSpace(category))
+            {
+
+                var queryCategory = categories
+                    .FirstOrDefault(c => c.Name.ToLower() == category.ToLower());
+
+                if (queryCategory == null)
+                {
+                    return RedirectToAction("Index");
+                }
+
+                products = products.Where(p => p.CategoryId == queryCategory.Id);
+            }
+
+
+            var viewModel = new HomeVM
+            {
+                Products = await products.ToListAsync(),
+                Categories = categories
+            };
+
+            return View(viewModel);
         }
 
         public IActionResult Privacy()

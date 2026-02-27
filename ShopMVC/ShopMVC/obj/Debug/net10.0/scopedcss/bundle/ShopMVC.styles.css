@@ -1,6 +1,4 @@
 /* /Views/Shared/_Layout.cshtml.rz.scp.css */
- /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
 a.navbar-brand[b-v3n704w96q] {
     white-space: normal;
     text-align: center;
@@ -8,14 +6,8 @@ a.navbar-brand[b-v3n704w96q] {
 }
 
 a[b-v3n704w96q] {
-    color: #363636;
-    text-decoration: none;
+    color: #0077cc;
 }
-
-    a:hover[b-v3n704w96q] {
-        color: #000000;
-        text-decoration:blink;
-    }
 
 .btn-primary[b-v3n704w96q] {
     color: #fff;

@@ -1,5 +1,11 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\noimage.png
+wwwroot\images\products\080e90d1-dfc2-4235-9dbd-5a723b3a2f37.png
+wwwroot\images\products\6c49883d-6af9-4357-ba94-54fb946e0ec4.png
+wwwroot\images\products\85520dea-2f96-449b-9fc1-6665d5e4d004.png
+wwwroot\images\products\d21ea752-c1f2-4687-8dd3-4c58604b5add.png
+wwwroot\images\products\noimage.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -45,6 +51,9 @@ wwwroot\lib\bootstrap\dist\js\bootstrap.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\icons\bootstrap-icons.min.css
+wwwroot\lib\bootstrap\icons\fonts\bootstrap-icons.woff
+wwwroot\lib\bootstrap\icons\fonts\bootstrap-icons.woff2
 wwwroot\lib\bootstrap\LICENSE
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
@@ -123,3 +132,4 @@ D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\lib\jquery\dist\jquery.slim.js
 D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\lib\jquery\dist\jquery.slim.min.js
 D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\lib\jquery\dist\jquery.slim.min.map
 D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\lib\jquery\LICENSE.txt
+D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\lib\bootstrap\icons\bootstrap-icons.min.css
