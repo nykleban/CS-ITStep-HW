@@ -1,5 +1,58 @@
-.vs/
+## Build results
 bin/
 obj/
-/ShopMVC/ShopMVC/bin
-/ShopMVC/ShopMVC/obj
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+artifacts/
+
+## Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.DotSettings.user
+
+## MSBuild / NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+**/project.assets.json
+**/project.packagespec.json
+**/*.nuget.g.props
+**/*.nuget.g.targets
+
+## Logs / caches
+*.log
+*.cache
+*.tmp
+*.temp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+## Test results / coverage
+TestResults/
+coverage/
+*.trx
+*.coverage
+*.coveragexml
+
+## ASP.NET Core secrets
+**/secrets.json
+
+## Local database files (якщо випадково з’являться в проєкті)
+*.mdf
+*.ldf
+*.db
+*.sqlite
