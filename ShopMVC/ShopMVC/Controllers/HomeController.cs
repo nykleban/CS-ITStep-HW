@@ -16,33 +16,70 @@ namespace ShopMVC.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index(string? category)
+        // Home/Index
+
+        public async Task<IActionResult> Index( [FromQuery] string? category, [FromQuery] int page = 1,
+            [FromQuery] int pageSize = 24, [FromQuery] string? sort = null)
         {
-            var categories = await _context.Categories.ToListAsync();
+
+            var categories = await _context.Categories
+                .OrderBy(c => c.Name)
+                .ToListAsync();
+
             IQueryable<ProductModel> products = _context.Products;
 
             if (!string.IsNullOrWhiteSpace(category))
             {
-
-                var queryCategory = categories
-                    .FirstOrDefault(c => c.Name.ToLower() == category.ToLower());
+                var queryCategory = await _context.Categories
+                    .FirstOrDefaultAsync(c => c.Name.ToLower() == category.ToLower());
 
                 if (queryCategory == null)
-                {
-                    return RedirectToAction("Index");
-                }
+                    return RedirectToAction(nameof(Index));
 
                 products = products.Where(p => p.CategoryId == queryCategory.Id);
             }
 
-
-            var viewModel = new HomeVM
+            // sort
+            products = sort switch
             {
-                Products = await products.ToListAsync(),
-                Categories = categories
+                "price_asc" => products.OrderBy(p => p.Price),
+                "price_desc" => products.OrderByDescending(p => p.Price),
+                "name_asc" => products.OrderBy(p => p.Name),
+                "name_desc" => products.OrderByDescending(p => p.Name),
+                "rating_desc" => products.OrderByDescending(p => p.Rating),
+                _ => products.OrderBy(p => p.Id)
             };
 
-            return View(viewModel);
+            // pagination
+            if (pageSize < 1) pageSize = 24;
+            var totalCount = await products.CountAsync();
+            var pageCount = (int)Math.Ceiling(totalCount / (double)pageSize);
+            if (pageCount < 1) pageCount = 1;
+
+            if (page < 1) page = 1;
+            if (page > pageCount) page = pageCount;
+
+            var items = await products
+                .Skip(pageSize * (page - 1))
+                .Take(pageSize)
+                .ToListAsync();
+
+            var vm = new HomeVM
+            {
+                Products = items,
+                Categories = categories,
+                Category = category,
+                Sort = sort,
+                Pagination = new PaginationVM
+                {
+                    Page = page,
+                    PageSize = pageSize,
+                    TotalCount = totalCount,
+                    PageCount = pageCount
+                }
+            };
+
+            return View(vm);
         }
 
         public IActionResult Privacy()

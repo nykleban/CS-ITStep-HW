@@ -14,11 +14,114 @@
         }
     </aside>
     <main class="flex-grow-1 p-4">
+
+        @* SORT *@
+
+        <form method="get" class="mb-3 d-flex gap-2 align-items-center">
+            <input type="hidden" name="category" value="@Model.Category" />
+            <input type="hidden" name="page" value="1" />
+
+            <select class="form-select" style="max-width: 320px;" name="sort" onchange="this.form.submit()">
+                <option value="">Сортування: за замовчуванням</option>
+                <option value="price_asc" selected="@(Model.Sort == "price_asc")">Ціна ↑</option>
+                <option value="price_desc" selected="@(Model.Sort == "price_desc")">Ціна ↓</option>
+                <option value="name_asc" selected="@(Model.Sort == "name_asc")">Назва A→Z</option>
+                <option value="name_desc" selected="@(Model.Sort == "name_desc")">Назва Z→A</option>
+                <option value="rating_desc" selected="@(Model.Sort == "rating_desc")">Рейтинг ↓</option>
+            </select>
+        </form>
+       
+        @* END SORT *@
+
         <div class="row px-3">
             @foreach (var product in Model.Products)
             {
                 <partial name="_ProductCard" model="product" />
             }
+        </div>
+        <div class="d-flex justify-content-center mt-4">
+           
+
+            @* ВИПРАВИВ ГПТ *@
+            <div class="btn-toolbar justify-content-center mt-4" role="toolbar">
+                <div class="btn-group" role="group">
+
+
+                    <a class="btn btn-secondary @(Model.Pagination.Page <= 1 ? "disabled" : "")"
+                       asp-controller="Home"
+                       asp-action="Index"
+                       asp-route-page="@(Model.Pagination.Page - 1)"
+                       asp-route-pageSize="@Model.Pagination.PageSize"
+                       asp-route-category="@Model.Category"
+                       asp-route-sort="@Model.Sort">
+                        <i class="bi bi-chevron-double-left"></i>
+                    </a>
+
+                    @{
+                        int page = Model.Pagination.Page;
+                        int pageCount = Model.Pagination.PageCount;
+
+                        int start = Math.Max(1, page - 3);
+                        int end = Math.Min(pageCount, page + 3);
+
+                        if (end - start < 6)
+                        {
+                            if (start == 1) end = Math.Min(pageCount, start + 6);
+                            else if (end == pageCount) start = Math.Max(1, end - 6);
+                        }
+                    }
+                    @if (start > 1)
+                    {
+                        <a class="btn @(page == 1 ? "btn-dark" : "btn-secondary")"
+                           asp-controller="Home"
+                           asp-action="Index"
+                           asp-route-page="1"
+                           asp-route-pageSize="@Model.Pagination.PageSize"
+                           asp-route-category="@Model.Category"
+                           asp-route-sort="@Model.Sort">1</a>
+
+                        @if (start > 2)
+                        {
+                            <span class="btn btn-secondary disabled">...</span>
+                        }
+                    }
+                    @for (int i = start; i <= end; i++)
+                    {
+                        <a class="btn @(page == i ? "btn-dark" : "btn-secondary")"
+                           asp-controller="Home"
+                           asp-action="Index"
+                           asp-route-page="@i"
+                           asp-route-pageSize="@Model.Pagination.PageSize"
+                           asp-route-category="@Model.Category"
+                           asp-route-sort="@Model.Sort">@i</a>
+                    }
+                    @if (end < pageCount)
+                    {
+                        @if (end < pageCount - 1)
+                        {
+                            <span class="btn btn-secondary disabled">...</span>
+                        }
+
+                        <a class="btn @(page == pageCount ? "btn-dark" : "btn-secondary")"
+                           asp-controller="Home"
+                           asp-action="Index"
+                           asp-route-page="@pageCount"
+                           asp-route-pageSize="@Model.Pagination.PageSize"
+                           asp-route-category="@Model.Category"
+                           asp-route-sort="@Model.Sort">@pageCount</a>
+                    }
+                    <a class="btn btn-secondary @(Model.Pagination.Page >= Model.Pagination.PageCount ? "disabled" : "")"
+                       asp-controller="Home"
+                       asp-action="Index"
+                       asp-route-page="@(Model.Pagination.Page + 1)"
+                       asp-route-pageSize="@Model.Pagination.PageSize"
+                       asp-route-category="@Model.Category"
+                       asp-route-sort="@Model.Sort">
+                        <i class="bi bi-chevron-double-right"></i>
+                    </a>
+                </div>
+            </div>
+
         </div>
     </main>
 </div>

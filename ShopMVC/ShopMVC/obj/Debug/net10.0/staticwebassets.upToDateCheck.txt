@@ -2,9 +2,12 @@ wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\noimage.png
 wwwroot\images\products\080e90d1-dfc2-4235-9dbd-5a723b3a2f37.png
+wwwroot\images\products\57b07278-9844-46c2-a062-98e993d071da.png
 wwwroot\images\products\6c49883d-6af9-4357-ba94-54fb946e0ec4.png
+wwwroot\images\products\7afaa491-58ee-4f36-b9dd-f638e7b1071b.png
 wwwroot\images\products\85520dea-2f96-449b-9fc1-6665d5e4d004.png
 wwwroot\images\products\d21ea752-c1f2-4687-8dd3-4c58604b5add.png
+wwwroot\images\products\fa13ff3d-0c87-4a46-958a-44976241ea61.png
 wwwroot\images\products\noimage.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -70,6 +73,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\seed_data\products_categories.json
 D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\css\site.css
 D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\favicon.ico
 D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\js\site.js
@@ -117,6 +121,7 @@ D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\lib\bootstrap\icons\bootstrap-icons.min.css
 D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
@@ -132,4 +137,4 @@ D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\lib\jquery\dist\jquery.slim.js
 D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\lib\jquery\dist\jquery.slim.min.js
 D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\lib\jquery\dist\jquery.slim.min.map
 D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\lib\jquery\LICENSE.txt
-D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\lib\bootstrap\icons\bootstrap-icons.min.css
+D:\Repos\CS-ITStep-HW\ShopMVC\ShopMVC\wwwroot\seed_data\products_categories.json

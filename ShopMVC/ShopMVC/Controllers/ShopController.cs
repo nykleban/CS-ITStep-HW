@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ShopMVC.Data;
@@ -9,6 +10,7 @@ using System.Diagnostics;
 
 namespace ShopMVC.Controllers
 {
+
     public class ShopController : Controller
     {
         private readonly AppDbContext context;
@@ -19,6 +21,7 @@ namespace ShopMVC.Controllers
             this.context = context;
             _environment = environment;
         }
+        [Authorize(Roles = "admin")]
         public IActionResult Index()
         {
             IEnumerable<ProductModel> products = context.Products
