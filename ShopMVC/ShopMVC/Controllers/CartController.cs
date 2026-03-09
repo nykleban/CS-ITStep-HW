@@ -3,7 +3,7 @@ using ShopMVC.Data;
 using ShopMVC.Services;
 using ShopMVC.ViewModels;
 using Microsoft.EntityFrameworkCore;
-using ShopMVC.ViewModels;
+//using ShopMVC.ViewModels;
 
 namespace ShopMVC.Controllers
 {
