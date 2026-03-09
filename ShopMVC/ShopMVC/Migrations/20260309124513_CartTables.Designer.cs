@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ShopMVC.Data;
 
@@ -11,9 +12,11 @@ using ShopMVC.Data;
 namespace ShopMVC.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260309124513_CartTables")]
+    partial class CartTables
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -155,34 +158,6 @@ namespace ShopMVC.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("ShopMVC.Models.CartModel", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("Count")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasDefaultValue(1);
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("CartItems");
-                });
-
             modelBuilder.Entity("ShopMVC.Models.CategoryModel", b =>
                 {
                     b.Property<int>("Id")
@@ -192,8 +167,7 @@ namespace ShopMVC.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Icon")
-                        .HasMaxLength(25)
-                        .HasColumnType("nvarchar(25)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -214,9 +188,7 @@ namespace ShopMVC.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("Amount")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasDefaultValue(0);
+                        .HasColumnType("int");
 
                     b.Property<int?>("CategoryId")
                         .HasColumnType("int");
@@ -240,9 +212,7 @@ namespace ShopMVC.Migrations
                         .HasColumnType("decimal(18, 2)");
 
                     b.Property<float>("Rating")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("real")
-                        .HasDefaultValue(0f);
+                        .HasColumnType("real");
 
                     b.HasKey("Id");
 
@@ -376,24 +346,6 @@ namespace ShopMVC.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("ShopMVC.Models.CartModel", b =>
-                {
-                    b.HasOne("ShopMVC.Models.ProductModel", "Product")
-                        .WithMany("Cart")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("ShopMVC.Models.UserModel", "User")
-                        .WithMany("Cart")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade);
-
-                    b.Navigation("Product");
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("ShopMVC.Models.ProductModel", b =>
                 {
                     b.HasOne("ShopMVC.Models.CategoryModel", "Category")
@@ -407,16 +359,6 @@ namespace ShopMVC.Migrations
             modelBuilder.Entity("ShopMVC.Models.CategoryModel", b =>
                 {
                     b.Navigation("Products");
-                });
-
-            modelBuilder.Entity("ShopMVC.Models.ProductModel", b =>
-                {
-                    b.Navigation("Cart");
-                });
-
-            modelBuilder.Entity("ShopMVC.Models.UserModel", b =>
-                {
-                    b.Navigation("Cart");
                 });
 #pragma warning restore 612, 618
         }

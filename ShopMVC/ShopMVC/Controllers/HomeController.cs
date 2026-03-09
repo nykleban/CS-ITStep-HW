@@ -2,8 +2,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ShopMVC.Data;
 using ShopMVC.Models;
+using ShopMVC.Services;
 using ShopMVC.ViewModels;
 using System.Diagnostics;
+using System.Security.Claims;
 
 namespace ShopMVC.Controllers
 {
@@ -14,6 +16,21 @@ namespace ShopMVC.Controllers
         public HomeController(AppDbContext context)
         {
             _context = context;
+        }
+        private bool IsAuthenticated()
+        {
+            return User.Identity != null && User.Identity.IsAuthenticated;
+        }
+
+        private string? GetUserId()
+        {
+            if (IsAuthenticated())
+            {
+                var claim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);
+                return claim != null ? claim.Value : null;
+            }
+
+            return null;
         }
 
         // Home/Index
@@ -80,6 +97,51 @@ namespace ShopMVC.Controllers
             };
 
             return View(vm);
+        }
+        public IActionResult AddToCart(int productId)
+        {
+            if (!CartService.IsInCart(HttpContext.Session, productId))
+            {
+                if (IsAuthenticated())
+                {
+                    var userId = GetUserId();
+                    if (userId != null)
+                    {
+                        _context.CartItems.Add(new CartModel
+                        {
+                            ProductId = productId,
+                            UserId = userId
+                        });
+                        _context.SaveChanges();
+                    }
+                }
+            }
+
+            CartService.AddToCart(HttpContext.Session, productId);
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult RemoveFromCart(int productId)
+        {
+            if (CartService.IsInCart(HttpContext.Session, productId))
+            {
+                if (IsAuthenticated())
+                {
+                    var userId = GetUserId();
+                    if (userId != null)
+                    {
+                        var item = _context.CartItems.FirstOrDefault(i => i.ProductId == productId && i.UserId == userId);
+                        if (item != null)
+                        {
+                            _context.CartItems.Remove(item);
+                            _context.SaveChanges();
+                        }
+                    }
+                }
+            }
+
+            CartService.RemoveFromCart(HttpContext.Session, productId);
+            return RedirectToAction("Index");
         }
 
         public IActionResult Privacy()

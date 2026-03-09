@@ -1,42 +1,35 @@
-﻿@model ProductModel
+﻿@inject IHttpContextAccessor ContextAccessor
+@model ProductModel
 
-<style>
+<div class="card col-xl-2 col-lg-4 col-md-6 col-sm-12 block-scale-hover @(Model.Amount <= 0 ? "opacity-25" : "")" style="border-radius: 0;">
+    <img style="object-fit:contain;" height="200" src="~/images/@(string.IsNullOrWhiteSpace(Model.Image) ? "noimage.png" : $"products/{Model.Image}")" class="card-img-top" alt="@Model.Name">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <h6>@(Model.Category != null ? Model.Category.Name : "Без категорії")</h6>
+        <partial name="_Rating" model="Model.Rating" />
+        @if (Model.Amount > 0)
+        {
+            <div class="d-flex justify-content-between">
+                <h4>@Model.Price.ToString("#.##") ₴</h4>
 
-	.out-of-stock {
-		opacity: 0.5;
-		background-color: #f8f9fa;
-	}
+                @if (CartService.IsInCart(ContextAccessor.HttpContext!.Session, Model.Id))
+                {
+                    <a asp-controller="Home" asp-action="RemoveFromCart" asp-route-productId="@Model.Id">
+                        <i class="bi bi-cart-check-fill text-success" style="font-size: 1.6em;"></i>
+                    </a>
+                }
+                else
+                {
+                    <a asp-controller="Home" asp-action="AddToCart" asp-route-productId="@Model.Id">
+                        <i class="bi bi-cart text-success" style="font-size: 1.6em;"></i>
+                    </a>
+                }
 
-
-</style>
-<div class="card col-xl-2 col-lg-4 col-md-6 col-sm-12 block-scale-hover @( Model.Amount == 0 ? "out-of-stock" : "")" style="border-radius: 0;">
-
-	<img style="object-fit:contain;"
-		 height="200"
-		 src="~/images/@(string.IsNullOrWhiteSpace(Model.Image) ? "noimage.png" : $"products/{Model.Image}")"
-		 class="card-img-top"
-		 alt="@Model.Name">
-
-	<div class="card-body">
-		<h5 class="card-title">@Model.Name</h5>
-		<h6>@(Model.Category != null ? Model.Category.Name : "Без категорії")</h6>
-
-		<partial name="_Rating" model="Model.Rating" />
-
-		@if (Model.Amount == 0)
-		{
-			<h5 class="text-danger fw-bold">Немає в наявності</h5>
-		}
-		else
-		{
-			<h2>@Model.Price.ToString("#.##") ₴</h2>
-		}
-
-		<a class="btn @( Model.Amount == 0 ? "btn-dark" : "btn-primary ")"
-		   asp-controller="Shop"
-		   asp-action="Details"
-		   asp-route-id="@Model.Id">
-			Деталі
-		</a>
-	</div>
+            </div>
+        }
+        else
+        {
+            <h6>Немає у наявності</h6>
+        }
+    </div>
 </div>

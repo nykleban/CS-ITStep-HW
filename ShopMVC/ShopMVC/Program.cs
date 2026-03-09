@@ -28,6 +28,14 @@ builder.Services.AddIdentity<UserModel, IdentityRole>(options =>
 .AddDefaultTokenProviders()
 .AddDefaultUI();
 
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddSession(cfg =>
+{
+    cfg.Cookie.IsEssential = true;
+    cfg.Cookie.HttpOnly = true;
+    cfg.IdleTimeout = TimeSpan.FromHours(1);
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -39,10 +47,11 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseStaticFiles();   // <-- важливо
+app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseSession();
 app.UseAuthentication();
 app.UseAuthorization();
 
@@ -51,7 +60,6 @@ app.MapRazorPages();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
 app.Seed().Wait();
 
 app.Run();
